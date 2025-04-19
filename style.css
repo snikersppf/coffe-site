@@ -1,0 +1,129 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#fce5c9;
+    font-family: 'Open-Sans', sans-serif;
+}
+.button {
+background-color: #955d37;
+color: white;
+border-radius: 10px;
+margin: 0;
+width: 230px;
+height: 30px;
+border: none;
+margin-top: 20px;
+cursor: pointer;
+font-size: 22px;
+display: inline-block;
+padding: 12px 24px;
+text-decoration: none;
+transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #8a5230;
+    cursor: pointer;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+    color: whitesmoke;
+    background-image: url('6.png');
+    background-size: cover;
+    background-position: center;
+}
+.hero h1 {
+    font-size: 65px;
+    margin-top: 150px;
+}
+.hero p {
+    margin-top: -10px;
+    font-size: 23px;
+}
+.menu {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+.item {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 15px;
+}
+.item p {
+    line-height: 1.5;
+    margin: 5px 0 0 0 ;
+}
+   
+.price {
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 27px;
+    position: absolute;
+    right: 15px;
+    top: 80%;
+    transform: translateY(-20%);
+    white-space: nowrap;
+}
+.menuh {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin: -30px;
+    color: #4A2C2A;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 900px;
+
+}
+.about img {
+    width: 50%;
+    border-radius: 15px;
+}
+.abouttxt{
+    align-items: left;
+    flex: 1
+}
+.about h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #4A2C2A;
+    margin: 0 0 10px 0;
+}
+.aboutus {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+    max-width: 450px;
+}
