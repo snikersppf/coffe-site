@@ -128,48 +128,32 @@ transition: background-color 0.3s ease;
     max-width: 450px;
 }
 
-
 @media (max-width: 768px) {
-
     .hero h1 {
       font-size: 32px;          
       margin-top: 100px;        
     }
-  
-   
     .hero p {
       font-size: 16px;          
     }
-  
-  
     .button {
       font-size: 18px;          
       padding: 10px 20px;       
       width: auto;             
     }
-  
-
     .grid {
       grid-template-columns: 1fr; 
     }
-  
-
     .menuh {
       font-size: 48px;        
     }
-  
-
     .about {
       flex-direction: column;   
       text-align: center;
     }
-  
-
     .about img {
       width: 100%;               
     }
-  
-
     .aboutus {
       max-width: 100%;           
       font-size: 18px;          
